@@ -8,6 +8,8 @@
 #include "MFCGitHubDlg.h"
 #include "afxdialogex.h"
 
+#include "UserManagement.h"
+
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -31,6 +33,7 @@ void CMFCGitHubDlg::DoDataExchange(CDataExchange* pDX)
 BEGIN_MESSAGE_MAP(CMFCGitHubDlg, CDialog)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDC_USER_MANAGEMENT, &CMFCGitHubDlg::OnBnClickedUserManagement)
 END_MESSAGE_MAP()
 
 
@@ -86,3 +89,10 @@ HCURSOR CMFCGitHubDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+void CMFCGitHubDlg::OnBnClickedUserManagement()
+{
+	UserManagement dlg;
+	dlg.DoModal();
+}
