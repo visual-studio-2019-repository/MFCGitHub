@@ -91,7 +91,7 @@ HCURSOR CMFCGitHubDlg::OnQueryDragIcon()
 
 
 
-void CMFCGitHubDlg::OnBnClickedUserManagement()
+void CMFCGitHubDlg::OnBnClickedUserManagement()//進入帳號管理
 {
 	UserManagement dlg;
 	dlg.DoModal();
