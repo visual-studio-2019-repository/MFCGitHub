@@ -17,7 +17,7 @@
 
 // CMFCGitHubDlg dialog
 
-
+/*before uese it , make sure your visual studio's enviroment are same as other member.*/
 
 CMFCGitHubDlg::CMFCGitHubDlg(CWnd* pParent /*=nullptr*/)
 	: CDialog(IDD_MFCGITHUB_DIALOG, pParent)
@@ -91,8 +91,10 @@ HCURSOR CMFCGitHubDlg::OnQueryDragIcon()
 
 
 
-void CMFCGitHubDlg::OnBnClickedUserManagement()//進入帳號管理
+void CMFCGitHubDlg::OnBnClickedUserManagement() // account management 
 {
 	UserManagement dlg;
 	dlg.DoModal();
 }
+
+
