@@ -93,7 +93,7 @@ HCURSOR CMFCGitHubDlg::OnQueryDragIcon()
 
 void CMFCGitHubDlg::OnBnClickedUserManagement() // account management 
 {
-	AfxMessageBox(L"Hellow World"); // you spell wrong
+	AfxMessageBox(L"Hellow World apple"); // you spell wrong
 	UserManagement dlg;
 	dlg.DoModal();
 }
