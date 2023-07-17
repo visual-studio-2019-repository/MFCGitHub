@@ -98,4 +98,4 @@ void CMFCGitHubDlg::OnBnClickedUserManagement() // account management
 }
 
 
-// merge test
+// merge to main
