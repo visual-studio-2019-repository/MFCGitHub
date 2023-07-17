@@ -93,7 +93,7 @@ HCURSOR CMFCGitHubDlg::OnQueryDragIcon()
 
 void CMFCGitHubDlg::OnBnClickedUserManagement()//進入帳號管理
 {
-	AfxMessageBox(L"Hellow ");
+	AfxMessageBox(L"Hellow "); // you spell wrong
 	UserManagement dlg;
 	dlg.DoModal();
 }
